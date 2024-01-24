@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #6f42c1;
+  --bs-bg-opacity: 1;
+}
+.navbar a {
+  color: #0ff;
+}
+
+body {
+  background-color: #58545f;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+.title h1 {
+  color: #0ff;
+}
+
+.noteplatform {
+  border-radius: 5%;
+  width: 500px;
+  height: 700px;
+  background-color: rgb(190, 183, 183);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding-top: 35px;
+}

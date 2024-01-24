@@ -1,0 +1,48 @@
+$Purple: #6f42c1;
+$Grey: #58545f;
+$Blue: #0ff;
+$Light-Gray: rgb(190, 183, 183);
+
+$Primary-Color: $Purple;
+$Secondary-Color: $Grey;
+$Text-Color: $Blue;
+$Note-Color: $Light-Gray;
+
+.navbar {
+  background-color: $Primary-Color;
+
+  --bs-bg-opacity: 1;
+  & a {
+    color: $Text-Color;
+  }
+}
+
+body {
+  background-color: $Secondary-Color;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-right: 80px;
+  padding-top: 20px;
+  & h1 {
+    color: $Text-Color;
+  }
+}
+
+.noteplatform {
+  border-radius: 5%;
+  width: 500px;
+  height: 700px;
+  background-color: $Note-Color;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding-top: 35px;
+}
